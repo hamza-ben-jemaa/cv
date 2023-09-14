@@ -2,7 +2,7 @@ nltk==3.8.1
 pafy==0.5.5
 pandas
 pdfminer3==2018.12.3.0
-Pillow==10.0.0
+Pillow
 plotly==5.9.0
 PyMySQL==1.1.0
 pyresparser==1.0.6

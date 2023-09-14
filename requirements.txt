@@ -6,7 +6,7 @@ Pillow
 plotly==5.9.0
 PyMySQL==1.1.0
 pyresparser==1.0.6
-spacy==3.5.3
+spacy
 streamlit
 streamlit_tags==1.2.8
 youtube_dl==2021.12.17

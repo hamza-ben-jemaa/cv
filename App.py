@@ -2,7 +2,7 @@ import streamlit as st
 import nltk
 import spacy
 nltk.download('stopwords')
-spacy.load('en_core_web_sm')
+spacy.load('en_core_web_sm-3.6.0')
 
 import pandas as pd
 import base64, random

@@ -11,5 +11,4 @@ streamlit
 streamlit_tags==1.2.8
 youtube_dl==2021.12.17
 pip==23.2.1
-os
 shutil

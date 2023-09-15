@@ -96,17 +96,14 @@ def course_recommender(course_list):
 
 
 #connection = pymysql.connect(host='ec2-52-8-112-233.us-west-1.compute.amazonaws.com', user='sql12646621@ec2-52-8-112-233.us-west-1.compute.amazonaws.com', password='ZgFBWfKwXh',port=3306)
-try:
+
     connection = pymysql.connect(
         host='ec2-52-8-112-233.us-west-1.compute.amazonaws.com',
         user='sql12646621@ec2-52-8-112-233.us-west-1.compute.amazonaws.com',
         password='ZgFBWfKwXh',
         port=3306
     )
-    # Rest of your database code here
-except pymysql.Error as e:
-    print("MySQL Connection Error:", e)
-cursor = connection.cursor()
+ cursor = connection.cursor()
 
 
 def insert_data(name, email, res_score, timestamp, no_of_pages, reco_field, cand_level, skills, recommended_skills,

@@ -95,7 +95,7 @@ def course_recommender(course_list):
     return rec_course
 
 
-connection = pymysql.connect(host='sql12.freemysqlhosting.net', user='sql12646621@ec2-52-8-112-233.us-west-1.compute.amazonaws.com', password='ZgFBWfKwXh',port=3306)
+connection = pymysql.connect(host='ec2-52-8-112-233.us-west-1.compute.amazonaws.com', user='sql12646621@ec2-52-8-112-233.us-west-1.compute.amazonaws.com', password='ZgFBWfKwXh',port=3306)
 cursor = connection.cursor()
 
 

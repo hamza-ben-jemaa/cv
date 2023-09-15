@@ -1,5 +1,4 @@
 nltk==3.8.1
-nltk_data
 pafy==0.5.5
 pandas
 pdfminer3==2018.12.3.0

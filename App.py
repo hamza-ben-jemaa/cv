@@ -120,7 +120,7 @@ st.set_page_config(
 
 
 def run():
-    st.title("Smart Resume Analyser")
+    st.title("La Poste Tunisienne : Analyse des CV avec Intelligence Artificielle")
     st.sidebar.markdown("# Choose User")
     activities = ["Normal User", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)

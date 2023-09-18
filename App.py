@@ -97,7 +97,7 @@ def course_recommender(course_list):
 
 #connection = pymysql.connect(host='jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12646621', user='sql12646621', password='ZgFBWfKwXh')
 
-connection = pymysql.connect(host='jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12646621',user='sql12646621',password='ZgFBWfKwXh')
+connection = pymysql.connect(host='sql12.freemysqlhosting.net',port=3306,user='sql12646621',password='ZgFBWfKwXh')
 cursor = connection.cursor()
 
 

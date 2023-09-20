@@ -35,7 +35,7 @@ from Courses import ds_course, web_course, android_course, ios_course, uiux_cour
 import pafy
 import plotly.express as px
 import youtube_dl
-config_path = "config.cfg"
+#config_path = "config.cfg"
 def fetch_yt_video(link):
     video = pafy.new(link)
     return video.title
@@ -163,7 +163,7 @@ def run():
             with open(save_image_path, "wb") as f:
                 f.write(pdf_file.getbuffer())
             show_pdf(save_image_path)
-            resume_data = ResumeParser(save_image_path, config_path).get_extracted_data()
+            resume_data = ResumeParser(save_image_path).get_extracted_data()
             if resume_data:
                 ## Get the whole resume data
                 resume_text = pdf_reader(save_image_path)

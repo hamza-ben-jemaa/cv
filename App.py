@@ -1,23 +1,23 @@
 import streamlit as st
 import nltk
 import spacy
-#import os
-#import shutil
+import os
+import shutil
 
 # Specify the NLTK data directory path
-#nltk_data_path = '/opt/render/nltk_data'
+nltk_data_path = '/opt/render/nltk_data'
 
 # Remove the existing NLTK data directory if it exists
-#if os.path.exists(nltk_data_path):
- #   shutil.rmtree(nltk_data_path)
+if os.path.exists(nltk_data_path):
+    shutil.rmtree(nltk_data_path)
 
 # Create the NLTK data directory
-#os.makedirs(nltk_data_path)
+os.makedirs(nltk_data_path)
 
 # Now you can download NLTK data
 nltk.download('stopwords')
-#spacy.load('en_core_web_lg')
-spacy.load('en_core_web_sm')
+spacy.load('en_core_web_lg')
+#spacy.load('en_core_web_sm')
 import pandas as pd
 import base64, random
 import time, datetime

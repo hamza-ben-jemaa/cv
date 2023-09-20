@@ -10,6 +10,4 @@ spacy~=2.3.5
 streamlit
 streamlit_tags
 youtube_dl
-en-core-web-lg
-
-
+en-core-web-lg==2.3.1

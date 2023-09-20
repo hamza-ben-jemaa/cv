@@ -6,9 +6,10 @@ Pillow
 plotly
 PyMySQL
 pyresparser
-spacy~=2.3.5
+spacy
 streamlit
 streamlit_tags
 youtube_dl
-en-core-web-lg
 pip==2.3.1
+spacy>=3.0,<4.0
+en-core-web-lg>=3.0,<4.0

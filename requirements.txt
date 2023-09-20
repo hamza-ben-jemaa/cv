@@ -11,4 +11,6 @@ streamlit
 streamlit_tags==1.2.8
 youtube_dl==2021.12.17
 pip==23.2.1
+python -m spacy download en_core_web_lg 
+python -m spacy download en_core_web_lg
 

@@ -10,3 +10,4 @@ spacy
 streamlit
 streamlit_tags
 spacy
+youtube-dl

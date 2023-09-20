@@ -9,5 +9,4 @@ pyresparser
 spacy~=2.3.9
 streamlit
 streamlit_tags
-spacy
 youtube-dl

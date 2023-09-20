@@ -6,7 +6,7 @@ Pillow
 plotly
 PyMySQL
 pyresparser
-spacy
+spacy~=2.3.9
 streamlit
 streamlit_tags
 spacy

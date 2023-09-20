@@ -10,4 +10,3 @@ spacy
 streamlit
 streamlit_tags
 spacy
-en-core-web-lg

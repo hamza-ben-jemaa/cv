@@ -11,5 +11,5 @@ streamlit
 streamlit_tags
 youtube_dl
 pip==2.3.1
-spacy>=3.0,<4.0
-en-core-web-lg>=3.0,<4.0
+spacy
+en-core-web-lg

@@ -16,7 +16,7 @@ os.makedirs(nltk_data_path)
 
 # Now you can download NLTK data
 nltk.download('stopwords')
-spacy.load('en_core_web_sm')
+spacy.load('en_core_web_lg')
 
 import pandas as pd
 import base64, random

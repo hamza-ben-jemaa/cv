@@ -9,7 +9,5 @@ pyresparser
 spacy
 streamlit
 streamlit_tags
-youtube_dl
-pip==2.3.1
 spacy
 en-core-web-lg
